@@ -1,3 +1,4 @@
+import re
 text="The rain in Spain"
-ai_count=text.count("ai")
-print(ai_count)
+ai_count=re.findall("ai",text)
+print(len(ai_count))
