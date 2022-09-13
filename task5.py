@@ -1,3 +1,4 @@
+#task5
 import re
 text="Berlin is a city of culture."
 pattern=r'^B\w+'

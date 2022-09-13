@@ -1,3 +1,4 @@
+#task1
 import re
 text="Berlin is a world city of culture, politics, media and science."
 first_whitespace=re.search(r'\s',text)
